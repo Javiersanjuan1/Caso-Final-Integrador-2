@@ -14,7 +14,6 @@ void load_script(const char* filename, bool show_script = false) {
             std::cout << line << std::endl;
         }
     }
-
     file.close();
 }
 
