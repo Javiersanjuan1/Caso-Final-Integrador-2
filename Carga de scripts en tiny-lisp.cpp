@@ -28,7 +28,7 @@ void load_script() {
 }
 
 int main() {
-    // Uso de load_script() sin parámetros para ingresar el nombre del archiv
+    // Uso de load_script() sin parámetros para ingresar el nombre del archi
     load_script();
 
     // Uso de load_script() con parámetros para mostrar el contenido de
