@@ -23,15 +23,11 @@ void load_script() {
     std::string filename;
     std::cout << "Ingrese el nombre del archivo: ";
     std::cin >> filename;
-
     load_script(filename.c_str(), true);
 }
 
 int main() {
     load_script();
-
-    // Uso de load_script() con parámetros para mostrar el contenido del archivo
     load_script("nombre_del_archivo.txt", true);
-
     return 0;
 }
