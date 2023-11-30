@@ -8,7 +8,6 @@ void load_script(const char* filename, bool show_script = false) {
         std::cerr << "Error: No se pudo abrir el archivo " << filename << std::endl;
         return;
     }
-
     if (show_script) {
         std::string line;
         while (std::getline(file, line)) {
