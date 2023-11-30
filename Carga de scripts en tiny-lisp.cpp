@@ -31,7 +31,7 @@ int main() {
     // Uso de load_script() sin parámetros para ingresar el nombre del archivo
     load_script();
 
-    // Uso de load_script() con parámetros para mostrar el contenido del arch
+    // Uso de load_script() con parámetros para mostrar el contenido del arc
     load_script("nombre_del_archivo.txt", true);
 
     return 0;
